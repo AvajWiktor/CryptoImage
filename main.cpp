@@ -5,7 +5,7 @@ using namespace cv;
 
 int main() {
 
-	MatrixRGB m("Grafika/oryginal.png");
+	MatrixRGB m("Grafika/original.png");
 	uint8_t x = 99;
 	do 
 	{
@@ -23,7 +23,7 @@ int main() {
 				cout << "3NT3R Y0UR M3554G3: "; 
 				std::cin.ignore(std::numeric_limits < std::streamsize >::max(), '\n');
 				std::getline(std::cin, message); 
-				m.encodeMessage(message, "Grafika/zakodowane.png");
+				m.encodeMessage(message, "Grafika/encoded.png");
 				break;
 			}
 			case '2': 
