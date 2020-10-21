@@ -43,12 +43,13 @@ int main() {
 			default: 
 			{
 				cout << "WR0NG 1NPUT"; 
+				
 				break; 
 			}
 
 		}
 		_getch();
-
+		std::cin.clear();
 		std::system("cls");
 	} while (x != '3');
 	_getch();

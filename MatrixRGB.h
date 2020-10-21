@@ -29,7 +29,8 @@ public:
 
         if (NewImage.empty())
         {
-            std::cout << "Could not read the image: " << _NewImagePath << std::endl;
+            return "Could not read the image: "+ _NewImagePath;
+            
         }
 
         for (int i = 0; i < _y; i++)
