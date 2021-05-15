@@ -4,7 +4,6 @@ using namespace std;
 using namespace cv;
 
 int main() {
-
 	MatrixRGB m("Grafika/original.png");
 	uint8_t x = 99;
 	do 
@@ -37,7 +36,6 @@ int main() {
 			}
 			case '3':
 			{
-				
 				break;
 			}
 			default: 
@@ -46,7 +44,6 @@ int main() {
 				
 				break; 
 			}
-
 		}
 		_getch();
 		std::cin.clear();
