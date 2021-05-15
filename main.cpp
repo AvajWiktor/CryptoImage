@@ -45,10 +45,9 @@ int main() {
 				break; 
 			}
 		}
-		_getch();
+		std::system("pause");
 		std::cin.clear();
 		std::system("cls");
 	} while (x != '3');
-	_getch();
 	return 0;
 }
